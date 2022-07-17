@@ -1,0 +1,57 @@
+.logo {
+  height: 45px;
+}
+.padrao{
+  width: 1440px;
+  height: 288px;
+  margin: auto;
+}
+
+
+.cabeçalho{
+  padding: 96px 0px;
+  margin: auto;
+  width: 766px;
+}
+.container-fluid {
+  padding: 5px 32px;
+
+  width: 1280px;
+  height: 51px;
+  display: flex;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+#navbarNav a {
+  padding: 0px;
+}
+
+.mtspy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.mts p {
+  text-align: left;
+  padding: 10px;
+}
+
+.mts {
+  width: 700px;
+  margin: 14px;
+  border: 1px solid rgb(240, 234, 234);
+}
+
+.perfil {
+  background-color: #F9FAFB;
+  width: 85%;
+}
+
+footer {background-color: #F9FAFB;}
