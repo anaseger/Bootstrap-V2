@@ -1,25 +1,29 @@
 .logo {
   height: 45px;
 }
-.padrao{
-  width: 1440px;
-  height: 288px;
+
+.padrao {
+  width: 280px;
   margin: auto;
 }
 
+.padrao h1 {
+  color: #0078AD;
+}
 
-.cabeçalho{
+.cabeçalho {
   padding: 96px 0px;
   margin: auto;
   width: 766px;
 }
+
 .container-fluid {
   padding: 5px 32px;
-
   width: 1280px;
   height: 51px;
   display: flex;
 }
+
 .nav-item {
   display: flex;
   align-items: center;
@@ -36,17 +40,17 @@
   align-items: center;
 }
 
-
-
 .mts p {
   text-align: left;
   padding: 10px;
+
 }
 
 .mts {
   width: 700px;
   margin: 14px;
   border: 1px solid rgb(240, 234, 234);
+
 }
 
 .perfil {
@@ -54,4 +58,31 @@
   width: 85%;
 }
 
-footer {background-color: #F9FAFB;}
+.cadastro .f {
+  background-color: #0078AD;
+}
+
+h6 {
+  color: #0078AD;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #F9FAFB;
+}
+
+@media (max-width : 540px) {
+  .cabeçalho {
+    width: 90%;
+  }
+
+  .quatro {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .mts {
+    width: 80%;
+  }
+}
